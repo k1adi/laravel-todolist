@@ -3,12 +3,8 @@
 namespace Tests\Feature;
 
 use App\Services\TodolistService;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Facades\Session;
 use Tests\TestCase;
-
-use function PHPUnit\Framework\assertEquals;
 
 class TodolistServiceTest extends TestCase
 {
