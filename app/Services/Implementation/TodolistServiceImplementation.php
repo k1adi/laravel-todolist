@@ -16,7 +16,7 @@ class TodolistServiceImplementation implements TodolistService
 
         Session::push('todolist', [
             'id' => $id,
-            'todo' => $todo
+            'name' => $todo
         ]);
    }
 
